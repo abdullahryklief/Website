@@ -1,0 +1,110 @@
+body{
+  font-family: Ariel, sans-serif;
+  margin: 10px ;
+  background-color: #56595e;
+  color: #f2f2f2;
+}
+
+header{
+  text-align: center;
+  background-color: #32353b;
+  font-size: 2em;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+footer{
+  background-color: #32353b;
+  text-align: center;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+img{
+  width: 125px;
+}
+
+.content{
+  width: 100%;
+  display: inline-flex;
+}
+
+.sidebar{
+  width: 20%;
+  height: 20%;
+  text-align: center;
+  background-color: #41424a;
+  padding-top: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.headshot{
+  width:95%;
+  border-radius: 360px;
+}
+
+.main{
+  width: 70%;
+  padding: 40px;
+}
+
+.menu-list{
+  list-style-type: none;
+  text-align: center;
+  font-size: 1.5em;
+  padding-right: 40px;
+}
+
+.menu{
+  text-align: center;
+  padding: 10px;
+}
+
+.heading-name{
+  margin-top: 0px;
+}
+
+.heading-job{
+  margin-bottom: 0px;
+  color: green;
+}
+
+.footer-contact{
+  margin-top: 0px;
+}
+
+.sublist{
+  list-style-type: disc;
+}
+
+.footer-icons{
+  width: 50px;
+  padding: 10px;
+}
+
+#interests, #skills{
+  float: left;
+  width: 50%;
+}
+
+#interests-list{
+  list-style-type: disc;
+}
+
+#footer-icons-phone{
+  width: 25px;
+  padding-bottom: 20px;
+  padding-right: 18px;
+}
